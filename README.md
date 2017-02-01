@@ -6,7 +6,7 @@ Start by attempting [this quick puzzle](http://www.nytimes.com/interactive/2015/
 
 We're going to build a simple clone of that site.
 
-### [Here is our target](https://fd-sequences.herokuapp.com/), but your version will differ slightly -- it won't save past guesses. It will only show the single most recent guess.
+### [Here is our target.](https://fd-sequences.herokuapp.com/)
 
 ## Setup
 
@@ -14,7 +14,7 @@ We're going to build a simple clone of that site.
 1. Clone your fork.
 1. Open the entire folder you downloaded in Atom.
 1. Commit and sync often.
-1. Run `rails grade` when you are ready to see how you are doing.
+1. Run `rake grade` when you are ready to see how you are doing.
 
 ## Suggested Steps
 
@@ -22,5 +22,4 @@ We're going to build a simple clone of that site.
 1. Start at the end and make the Answer form work to send the user from `/all_guesses` to `/show_answer` and parrot back the answer they submitted.
 1. Make the Guesses form work to send the user from `/all_guesses` back to `/all_guesses` and parrot back the guess they submitted.
 1. Add some logic to report whether the guess obeyed the rule or not.
-
-What would we need in order to store the history of all past guesses the way that the target does? The ability to write information to disk permanently, which will be our next focus. If you'd like a sneak peek, have a look at [the next cheatsheet -- CRUD with Ruby](https://guides.firstdraft.com/crud-with-ruby.html). Can you figure out how to add the history of guesses to this project?
+1. What would we need in order to store the history of all past guesses? [The ability to write information to disk permanently.](https://guides.firstdraft.com/crud-with-ruby.html)
